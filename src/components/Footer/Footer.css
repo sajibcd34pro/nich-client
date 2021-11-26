@@ -1,0 +1,119 @@
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 10%;
+    padding-top: 20px;
+    /* margin: 0 auto; */
+}
+
+.flex-footer{
+   display: grid;
+   grid-template-columns: repeat(6, 1fr) ;
+   align-items: center;
+   border-top: 2px solid #777777;
+   border-bottom: 2px solid #777777;
+   padding: 20px 0;
+   margin: 50px 0;
+}
+
+.flex-footer a{
+    color: #c2bfbf;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    
+}
+
+.footer-icons i{
+    font-size: 28px;
+    padding: 5px;
+    color: rgb(141, 140, 140);
+}
+.footer-icons i:hover{
+    color:#E7272D;
+}
+.booking{
+  padding: 20px 60px;
+  margin-bottom: 30px;
+}
+.text, .text{
+    margin-bottom: 30px;
+}
+
+.submit{
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    background-color: #E7272D;
+}
+
+.email{
+    padding: 14px 40px;
+    background-color: rgb(37,39,44);
+    border: 1px solid grey;
+    
+}
+.email:focus{
+    outline: none;
+}
+
+.footer-section h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: #c2bfbf;
+}
+
+.footer-section p{
+    color: #c2bfbf;
+}
+
+footer{
+    color:#c2bfbf;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-section{
+    padding-top: 50px;
+    
+}
+
+.fa-phone-alt, .fa-envelope{
+   color: #E7272D;
+}
+
+input:focus {
+    color: #dbdada;
+}
+
+/* .footer-area{
+    width: 100%;
+} */
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 992px) {
+    .grid-footer{
+        grid-template-columns: 1fr;
+        
+    }
+    .flex-footer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+    .grid-footer{
+        grid-template-columns: 1fr;
+        
+    }
+    .flex-footer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+}

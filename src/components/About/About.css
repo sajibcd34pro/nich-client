@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+.body{
+ font-family: 'Rajdhani', sans-serif;
+}
+.get{
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #bb2429;
+    font-weight: bold;
+}
+
+.text-area h3{
+    font-size: 70px;
+    font-weight: bold;
+   
+}
+
+.text-area{
+    margin-left: 10%;
+    padding-top: 10%;
+}
+
+.text-area button{
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.purchase {
+    background-color: #ED1D24;
+    color:#FFF;
+   
+    padding: 10px;
+}
+
+.home-banner{
+   
+   background: linear-gradient(rgba(0, 0, 0, 0.109), rgba(0, 0, 0, 0.137)),
+   url(`../../../../images/about2.jpg) 
+   ;
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    width:auto;
+    height: 160vh;
+                                  
+              
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 1100px) {
+    .home-banner{
+        background-color:linear-gradient(rgba(0, 0, 0, 0.109), rgba(0, 0, 0, 0.137)) ;
+        background:url(`../../../../images/about2.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center;
+        height: 80vh;
+    }
+  
+    
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px)  {
+     .home-banner{
+        background-color:linear-gradient(rgba(0, 0, 0, 0.109), rgba(0, 0, 0, 0.137)) ;
+        background:url(`../../../../images/about2.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center;
+        width: 100%;
+        height: 50vh;
+    }
+    .text-area h3{
+       font-size: 20px;
+  }
+  .get{
+      font-size: 10px;
+  }
+  .text-area button{
+      width:25%;
+  }
+  .purchase{
+      font-size: 7px;
+  }
+}

@@ -1,0 +1,32 @@
+.add-product form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-product{
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.add-product form input:focus {
+  color:black;
+}
+
+.add-product form input, textarea {
+    width: 40%;
+    margin-bottom: 10px;
+
+}
+
+.card-body form input, textarea{
+    width: 80%;
+    height: 6vh;
+    
+}
+
+.card-style{
+ margin: 0 auto;
+}
+
+

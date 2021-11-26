@@ -1,0 +1,9 @@
+.items{
+    display: flex;
+    overflow-x: scroll;
+    
+}
+
+.item{
+    margin: 10px;
+}
